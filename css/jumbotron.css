@@ -1,0 +1,99 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+ 	padding-bottom: 20px;
+	position: relative;
+	z-index: 5;
+
+	font-family: 'Titillium Web', sans-serif;
+}
+
+body #backgroundimg {
+	position: absolute;
+	z-index: -1;
+	background:url("images/skyline2_crop2.jpg") no-repeat center center;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+
+	opacity: .5;
+	filter: grayscale(.4);
+	-webkit-filter: grayscale(.4);
+	-moz-filter: grayscale(.4);
+	-o-filter: grayscale(.4);
+	-ms-filter: grayscale(.4);
+}
+
+hr {
+	margin: 0px 0px;
+	border-color: #f9ffff;
+	border-width: 2px;
+}
+
+.jumbotron {
+	margin-top: 40px;
+	margin-bottom: 0px;
+	border-radius: 0 !important;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	background: #2c3147;
+	color: #f9ffff;
+	font-weight: lighter;
+}
+
+#header-left {
+}
+
+#header-left h1, #header-right h1 {
+	display: inline;
+	line-height: 140px;
+}
+
+#header-left h3, #header-right h3 {
+	margin-top: -5px;
+	font-weight: 100;
+}
+
+#header-right {
+	margin-top: 20px;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    #header-left {
+    	width: 100% !important;
+    	text-align: center;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	#header-left {
+    	width: 100% !important;
+    	text-align: center;
+    }
+  	#header-left h1 {
+  		font-size: 50px;
+    }
+    #header-left h3 {
+    	font-size: 20px;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}

@@ -1,0 +1,39 @@
+#news hr {
+  
+}
+
+.blog-post {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blog-post-title {
+  font-size: 30px;
+}
+
+.blog-post-date {
+  font-size: 18px;
+}
+
+.blog-post p {
+  font-size: 15px;
+}
+
+.blog-post hr {
+  border-color: #af383b;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.blog-post img {
+  padding: 2px;
+  margin-top: 15px;
+  margin-left: 30px;
+
+  height: 200px;
+  object-fit: contain;
+}
+
+.hangingindent {
+  padding-left: 26px ;
+}

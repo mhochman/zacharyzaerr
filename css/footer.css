@@ -1,0 +1,78 @@
+.footer {
+	background: #2c3147;
+	color: #f9ffff;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 10px;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border: none;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #f9ffff;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: #4f77b0;
+}
+
+#footer h3 {
+	display: inline;
+	line-height: 80px;
+}
+
+#bottom-border {
+	border-bottom: 3px solid;
+	border-color: #af383b;
+}
+
+#footer #bottom-border {
+	padding-bottom: 10px;
+}
+
+#footer hr {
+	border-bottom: 1px solid;
+	border-color: #af383b;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.footer {
+		padding-top: 20px;
+	}
+	#footer h3 {
+		line-height: 30px;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.footer {
+		padding-top: 20px;
+	}
+	#footer h3 {
+		line-height: 30px;
+	}
+}

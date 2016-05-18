@@ -1,0 +1,13 @@
+#title {
+	margin-bottom: 30px;
+}
+
+#volunteer .btn {
+	background: #af383b;
+	color: #f9ffff;
+	border: none;
+}
+
+#volunteer .btn:hover {
+	color: #b8b8b8;
+}
