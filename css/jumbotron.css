@@ -44,6 +44,12 @@ hr {
 	font-weight: lighter;
 }
 
+.thumbnail-header {
+	width: 320px; /* you can use % */
+    height: auto;
+    margin-bottom: 20px;
+}
+
 #header-left {
 }
 
