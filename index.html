@@ -117,6 +117,26 @@
 
     <hr> <!-- Horizontal divider -->
 
+
+    <div id="email_subscribe" class="well">
+      <h2>Subscribe to hear updates on Zachary's campaign!</h2>
+      <form class="form-horizontal" action="https://formspree.io/ZaerrForWashington@gmail.com" method="post">
+        <fieldset>  
+              <!-- Email input-->
+              <div class="form-group">
+                <input id="subscribe" name="subscribe" type="text" placeholder="Email" class="form-control">
+              </div>
+
+              <!-- Form actions -->
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg">Subscribe</button>
+              </div>   
+        </fieldset>
+      </form>
+    </div>
+
+    <hr> <!-- Horizontal divider -->
+
     <!-- Carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -225,6 +245,16 @@
     <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="bootstrap-3.3.6-dist/assets/js/ie10-viewport-bug-workaround.js"></script>
-
+    <!-- For touch slide support for carousel -->
+    <script>
+      $(document).ready(function() {  
+           $("#myCarousel").swiperight(function() {  
+              $(this).carousel('prev');  
+              });  
+           $("#myCarousel").swipeleft(function() {  
+              $(this).carousel('next');  
+         });  
+      });  
+    </script>
   </body>
 </html>

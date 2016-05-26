@@ -36,6 +36,36 @@ body {
     height: 300px;
 }
 
+#email_subscribe {
+  background-color: #af383b;
+  color: #f9ffff;
+}
+
+#email_subscribe h2 {
+  margin: 20px;
+  text-align: center;
+}
+
+#email_subscribe .form-group{
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#email_subscribe input {
+  height: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#email_subscribe button {
+  height: 40px;
+  padding: 0px 10px;
+  background: #2c3147;
+  color: #f9ffff;
+  border: none;
+}
+
 .carousel-inner {
   position: relative;
 }
