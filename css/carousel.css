@@ -25,7 +25,7 @@ body {
 }
 
 .home-img {
-    background: url("images/grad3_crop6.jpg") no-repeat center center;
+    background: url("images/Suit4.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -64,6 +64,10 @@ body {
   background: #2c3147;
   color: #f9ffff;
   border: none;
+}
+
+#email_subscribe button:hover {
+  color: #b8b8b8;
 }
 
 .carousel-inner {
